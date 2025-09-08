@@ -1,0 +1,2 @@
+# c
+all c program
