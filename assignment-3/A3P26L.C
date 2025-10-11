@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int x=0,y=0,n=0;
+	clrscr();
+	printf("Input n :");
+	scanf("%d",&n);
+	for(x=n;x>=1;x--)
+	{
+		for(y=n;y>=x;y--)
+		{
+			printf("%4d",y);
+		}
+		printf("\n");
+	}
+	getch();
+}
